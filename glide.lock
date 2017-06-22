@@ -1,10 +1,6 @@
-hash: cf043c19889ce033b35677dec2076bd732f89c25d8c6f17a3c20558446df6b99
-updated: 2017-06-22T07:45:48.148580851-05:00
+hash: 8d7b6e8ae9097a99987d7246662844c5e01beaceea603d07cb1f43c19da5315e
+updated: 2017-06-22T08:36:16.765605886-05:00
 imports:
-- name: github.com/davecgh/go-spew
-  version: 346938d642f2ec3594ed81d874461961cd0faa76
-  subpackages:
-  - spew
 - name: github.com/dgrijalva/jwt-go
   version: d2709f9f1f31ebcda9651b03077758c1f3a0018c
 testImports: []

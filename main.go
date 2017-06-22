@@ -9,7 +9,14 @@ import (
 )
 
 func main() {
-	token, err := jwt.Parse(os.Args[1:][0], func(token *jwt.Token) (interface{}, error) {
+	args := os.Args[1:]
+
+	if len(args) < 1 {
+		fmt.Println("You must provide a token")
+		return
+	}
+
+	token, err := jwt.Parse(args[0], func(token *jwt.Token) (interface{}, error) {
 		return []byte(nil), nil
 	})
 

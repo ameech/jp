@@ -4,7 +4,7 @@
 
 ## Install
 
-`go install github.com/ameech/jp`
+`go get github.com/ameech/jp`
 
 ## Usage
 

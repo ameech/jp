@@ -1,6 +1,6 @@
 # JWT CLI Claim Viewer
 
-*NOTE:* This does not validate your token.
+**NOTE:** This does not validate your token.
 
 ## Install
 
